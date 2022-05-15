@@ -12,7 +12,7 @@ int main()
     int num2 = 10;
     // 长整型
     long num3 = 10;
-    // 常常整形
+    // 长长整形
     long long num4 = 10;
 
     cout << "短整型num1占用的字节大小为" << sizeof(num1) << endl;

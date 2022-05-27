@@ -15,7 +15,7 @@ struct student
     int score;
 };
 
-// 引用传递
+// 地址传递
 void printStudent2( const student *s1)
 {
     // const 修饰的结构体,不可以被修改,所以对age的修改,期待报错

@@ -16,7 +16,7 @@ void swap1(int a, int b)
 
 
 
-// 引用传递
+// 地址传递
 void swap2(int * a, int * b)
 {
     int tmp = *a;

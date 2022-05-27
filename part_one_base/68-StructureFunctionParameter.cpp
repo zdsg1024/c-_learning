@@ -23,7 +23,7 @@ void printStudent(student s1)
     cout << s1.name << " " << s1.age << " " << s1.score << endl;
 }
 
-// 引用传递
+// 地址传递
 void printStudent2(student *s1)
 {
     /* // 以下两种赋值,取值方式都是正确的
